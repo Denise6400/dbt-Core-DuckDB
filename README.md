@@ -88,16 +88,11 @@ The demonstrated environment used dbt Core 1.12.6 and dbt-duckdb 1.11.0. Other v
 
 ## Results
 
-| Booking month | Passenger count |
-| --- | ---: |
-| February 2026 | 9 |
-| March 2026 | 5 |
-| April 2026 | 9 |
-| May 2026 | 10 |
-| June 2026 | 1 |
-| September 2026 | 13 |
-| October 2026 | 14 |
-| **Total** | **61** |
+The latest refresh loaded **68 booked passengers**. The chart shows passenger counts by booking month.
+
+![Cruise passengers booked by month](./monthly-passenger-count.png)
+
+[View the anonymized booking CSV](./cruise_bookings.csv)
 
 All three booking data tests passed:
 
